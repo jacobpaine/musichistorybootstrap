@@ -1,0 +1,21 @@
+{ 
+  "songs": [
+    {
+      "title": "The Pearl",
+      "artist": "Fleming and John",
+      "album": "The Way We Are"
+    },
+    {
+      "title": "Circles",
+      "artist": "Soul Coughing",
+      "album": "El Oso"      
+    },
+    {
+      "title": "Anna Begins",
+      "artist": "Counting Crows",
+      "album": "August and Everything After"      
+    }
+  ]
+}
+
+
