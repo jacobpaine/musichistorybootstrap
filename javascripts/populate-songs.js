@@ -1,3 +1,4 @@
+// EXAMPE only. Entire file must be redone.
 define(["jquery", "firebase"], function($, Firebase) {
   var myFirebaseRef = new Firebase("https://fiery-inferno-6987.firebaseio.com/songs");
   myFirebaseRef.on("value", function(snapshot) {

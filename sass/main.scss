@@ -1,3 +1,4 @@
+// Example ONLY
 $font-stack:    Helvetica, sans-serif;
 $primary-color: black;
 $border-color: black;
@@ -8,30 +9,10 @@ $border-color: black;
 	width: 100px;
 }
 
-#profile textarea{
-	margin:10px 0 0 0;
-}
-
-.comments p {
-  position: relative;
-  left: 250px;
-  bottom: 170px;
-  width: 250px;
-  height: 190px; 
-}
-
-#addmusic--addtag{
-	position:relative;
-	bottom:5px;
-}
-
-div > .user-photo {
-	border: 2px solid $border-color;
-	padding: 50px, 10px, 10px, 10px;
-	margin: 150px, 10px;
-	height: 150px;
-	width: 150px;
-	color: black;
+.classname{
+	width:100px;
+	padding:10px;
+	color:red;
 }
 
 body {

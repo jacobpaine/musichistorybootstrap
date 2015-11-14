@@ -1,3 +1,5 @@
+// EXAMPLE only. Entire file must be redone.
+
 define(
 	["jquery", "hbs/handlebars", "firebase"],
 	function($, Handlebars, Firebase) {

@@ -2,82 +2,65 @@
 <!DOCTYPE html>
 
 <html lang="en">
-		<head>
-			<link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-			<link rel="stylesheet" href="./styles/main.css">
-
-		  <meta charset="utf-8">
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <title>NSS Starter Kit</title>
-		</head>
+	<head>
+		<link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./styles/main.css">
+	 	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>TITLE STANDIN</title>
+	</head>
+		
 	<body>
-
-<div class="container-fluid">
-	<div class="row">
-	  <h2>Dynamic Tabs</h2>
-	  	<ul class="nav nav-tabs">
-		    <li><a data-toggle="tab" href="#viewmusic">View Music</a></li>
-		    <li><a data-toggle="tab" href="#addmusic">Add Music</a></li>
-		</ul>
-
-  		<div class="tab-content">
-<!-- PROFILE -->
-		    <div id="profile" class="tab-pane fade in active">
-		      	<div class="user-photo">PHOTO</div>
-			    <textarea placeholder="User comments to be entered..." id="profile--textarea" rows="1" cols="25"></textarea>
-			    <div id="profile--comments">
-			      	<p>User displayed comments</p>
-		   	   </div>
-		    </div>
-
-<!-- VIEW MUSIC -->
-		    <div id="viewmusic" class="tab-pane fade">
-		      
-				<div class="row">
- 					<div class="col-sm-5" id="viewmusic--photo"><h3>View Music</h3></div>
-  					<div class="col-sm-3">
-  					</div>
-  					<div class="col-sm-4">
-						<div id="list-of-albums">
-							<label>Albums:</label>
-							<select id="select-albums" class="music-selector"></select>
+<!-- Bootstrap <div class="container-fluid">  <div class="row">   <div class="col-sm-5" id=""> help with responsiveness.  -->
+		<div class="container-fluid">
+			<div class="row">
+  				<!-- Tabs in the DOM -->
+  				<h2>Dynamic Tabs STANDIN</h2> 
+  				<ul class="nav nav-tabs">
+				    <li><a data-toggle="tab" class="active" href="#library">View Readings</a></li>
+				    <li><a data-toggle="tab" href="#addbook">Add Readings</a></li>
+				</ul>
+			</div> <!--  End of Tab row-->  
+  			<div class="tab-content">
+<!-- New tab, class changes type of tab shift -->
+		    	<div id="library" class="tab-pane fade">
+					<div class="row">
+ 						<div class="col-sm-3 library--column1" id="column1">
+ 							<h3>Header col1</h3>
+ 						</div>
+ 						<div class="col-sm-3 library--column2" id="column2">
+							<div id="library--column2--label">
+								<label>Label col2</label>
+								<select id="" class=""></select>
+							</div>
 						</div>
-						<div id="list-of-songs">
-							<label>Titles:</label>
-							<select id="select-titles" class="music-selector"></select>
+ 						<div class="col-sm-3 library--column3" id="column3">
+							<div id="library--column3--label">
+								<label>Label col3</label>
+							</div>
 						</div>
-						<div id="list-of-artists">
-							<label>Artists:</label>
-							<select id="select-artists" class="music-selector"></select>
-						</div>
-						<div id="title-output"></div>
-							
-						<div id="artist-output"></div>
-							
-						<div id="album-output"></div>
-						<div id="some-output">blah</div>
-  					</div>
-				</div>
-		    </div>
-
-<!-- ADD MUSIC -->
-		    <div id="addmusic" class="tab-pane fade">
-		      <h3>Add Music</h3>
-		      <button id="upload">Upload a song</button>
-
-		      <div id="add-here"></div>
-		      
-		      <div class="addmusic--comments">
-		      	<p id="addmusic--commentstext">Comments go here.</p>
-		      	<textarea id="addmusic--comments-textarea"></textarea>
-		      </div>
-
-		    </div>
-
-		</div>  
-	</div>
-</div>
-</body>
+						<div class="col-sm-3 library--column4" id="column4">
+							<div id="library--column4--label">
+								<label>Label col4</label>
+							</div>
+  						</div>
+					</div>  <!-- End of Row  -->  
+		    	</div><!-- End of Library -->
+ 
+<!-- ADD READINGS -->
+			    <div id="addbook" class="tab-pane fade">
+			      <h3>Add Readings</h3>
+			      <div id="addbook--box">
+				      	<div>Title of Reading</div>
+				      	<div>Author of Reading</div>
+				      	<div>Language Dropdown</div>
+				      	<div>Reader Dropdown</div>
+			      </div> <!-- End of box -->
+			    </div><!--  End of addbook-->
+			</div> <!--  End of all tab content-->  
+		</div><!-- End of responsive container -->
+	</body>
 
 
 <script data-main="javascripts/mh" src="lib/bower_components/requirejs/require.js"></script>
