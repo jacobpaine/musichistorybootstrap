@@ -43,10 +43,12 @@ https://moqups.com/#!/edit/painejacob@gmail.com/Xl16SvQq
 
 Sat. 11/14/2015 1:00 Lunch Break! 2:00
 
-Sat. 11/14/2015 2:10 - Boarding past the template stage is very challenging. I'm moving on to accomplishing the tasks at hand, then I'll go back to the board to decide on the next set of steps. 
+Sat. 11/14/2015 2:10 - Boarding past the template stage is very challenging. I'm moving on to accomplishing the tasks at hand, then I'll go back to the board to decide on the next set of steps. Push new README. 
 
 Complications with Trello:
 Added additional Moqup ideas while deciding Trello boarding. Moved back and forth.
+Unknown complications with Git.
+
 https://trello.com/b/LHI9G02u/music-history-version-7
 
 
