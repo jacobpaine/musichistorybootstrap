@@ -35,12 +35,20 @@ Sat. 11/14/2015 11:40- Git push the readme.
 				>Reader
 			* Future use: Better individual profile for volunteer readers than currently available. Other features would be required.
 
-Sat. 11/14/2015 12:30 - Initial Moqup is bare bones. Additional elaboration difficult without more thorough grounding in Bootstrap. Git update README.md
+Sat. 11/14/2015 12:30 - Initial Moqup is bare bones. Additional elaboration difficult without more thorough grounding in Bootstrap. Git update README.md. Begin exploring Trello.
 
-Problems with Moqups:
+Complications with Moqups:
 Initial moqup too simple. 
 https://moqups.com/#!/edit/painejacob@gmail.com/Xl16SvQq
 
+Sat. 11/14/2015 1:00 Lunch Break! 2:00
 
-Problems with Trello:
+Sat. 11/14/2015 2:10 - Boarding past the template stage is very challenging. I'm moving on to accomplishing the tasks at hand, then I'll go back to the board to decide on the next set of steps. 
+
+Complications with Trello:
+Added additional Moqup ideas while deciding Trello boarding. Moved back and forth.
+https://trello.com/b/LHI9G02u/music-history-version-7
+
+
+
 
