@@ -1,71 +1,85 @@
-<!doctype html>
+
+<!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<head>
+			<link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+			<link rel="stylesheet" href="./styles/main.css">
+
 		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  <title>NSS Starter Kit</title>
-	</head>
+		</head>
+	<body>
 
-	<header>
-		<a href="">View Music <b>|</b></a>
-		<a href="html">Add Music </a><b>|</b>
-		<a href="html">Profile</a>
-	</header>
-	<body id = "body">
-		<div class="leftbox">
+<div class="container-fluid">
+	<div class="row">
+	  <h2>Dynamic Tabs</h2>
+	  	<ul class="nav nav-tabs">
+		    <li class="active"><a data-toggle="tab" href="#profile">Profile</a></li>
+		    <li><a data-toggle="tab" href="#viewmusic">View Music</a></li>
+		    <li><a data-toggle="tab" href="#addmusic">Add Music</a></li>
+		</ul>
 
-		      <p><label for="song-length">Song Length:</label></p>
-		      <input type="range" name="song-length" min="0" max="20" step="0.5" value="0" >
+  		<div class="tab-content">
+<!-- PROFILE -->
+		    <div id="profile" class="tab-pane fade in active">
+		      	<div class="user-photo">PHOTO</div>
+			    <textarea placeholder="User comments to be entered..." id="profile--textarea" rows="1" cols="25"></textarea>
+			    <div id="profile--comments">
+			      	<p>User displayed comments</p>
+		   	   </div>
+		    </div>
 
-			<div class="artist">
-			    <p><label for =album>Artist:</label></p>
-			    <p><select name="album"></p>
-					<option value=:"album1">Artist Name1</option>   
-					<option value=:"album2">Artist Name2</option>
-					<option value=:"album3">Artist Name3</option>      
-				</select>
-			</div>
+<!-- VIEW MUSIC -->
+		    <div id="viewmusic" class="tab-pane fade">
+		      
+				<div class="row">
+ 					<div class="col-sm-5" id="viewmusic--photo"><h3>View Music</h3></div>
+  					<div class="col-sm-3">
+  					</div>
+  					<div class="col-sm-4">
+						<div id="list-of-albums">
+							<label>Albums:</label>
+							<select id="select-albums" class="music-selector"></select>
+						</div>
+						<div id="list-of-songs">
+							<label>Titles:</label>
+							<select id="select-titles" class="music-selector"></select>
+						</div>
+						<div id="list-of-artists">
+							<label>Artists:</label>
+							<select id="select-artists" class="music-selector"></select>
+						</div>
+						<div id="title-output"></div>
+							
+						<div id="artist-output"></div>
+							
+						<div id="album-output"></div>
+						<div id="some-output">blah</div>
+  					</div>
+				</div>
+		    </div>
 
-			<div class = "album">
-			    <p><label for =album>Album:</label></p>
-			    <p><select name="album">
-					<option value=:"album1">Album Name1</option>   
-					<option value=:"album2">Album Name2</option>
-					<option value=:"album3">Album Name3</option>      
-				</select></p>
-			</div>
-		     
-		      	<label>Genre:
-					<div class="genre">
-						<ol>
-							<div class="left">
-					 			<li><input type="checkbox" value="1">Rock</li>
-								<li><input type="checkbox" value="1">Classical</li>
-								<li><input type="checkbox" value="1">Pop</li>
-							</div>
-							<div class="right">
-								<li><input type="checkbox" value="1">Jazz</li>
-								<li><input type="checkbox" value="1">Blues</li>
-								<li><input type="checkbox" value="1">Hip Hop</li>
-							</div>
-					 	</ol>
-					</div>
-	 				<input id = "more" type="button" name="more" value="More">
-	 				<input id = "delete" class = "clear-mesage" type="button" name="delete" value="Delete	">
-	 			</label>
-		</div>
+<!-- ADD MUSIC -->
+		    <div id="addmusic" class="tab-pane fade">
+		      <h3>Add Music</h3>
+		      <button id="upload">Upload a song</button>
 
-		<div class="rightbox">
-			<div id = "songbox">	
-			</div>
-		</div>
+		      <div id="add-here"></div>
+		      
+		      <div class="addmusic--comments">
+		      	<p id="addmusic--commentstext">Comments go here.</p>
+		      	<textarea id="addmusic--comments-textarea"></textarea>
+		      </div>
 
-		<script type = "text/javascript" src="mh.js"></script> 
+		    </div>
 
-		<script type = "text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		</div>  
+	</div>
+</div>
+</body>
 
-		<script type = "text/javascript" src="data/ajax.js"></script>
 
-	</body>
+<script data-main="javascripts/mh" src="lib/bower_components/requirejs/require.js"></script>
 </html>
