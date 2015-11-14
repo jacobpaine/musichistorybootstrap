@@ -47,7 +47,7 @@ Sat. 11/14/2015 2:10 - Boarding past the template stage is very challenging. I'm
 
 Complications with Trello:
 Added additional Moqup ideas while deciding Trello boarding. Moved back and forth.
-Unknown complications with Git.
+Unknown complications with Git. (Needed to specifically - "git add README.md" - not "git add .")
 
 https://trello.com/b/LHI9G02u/music-history-version-7
 
