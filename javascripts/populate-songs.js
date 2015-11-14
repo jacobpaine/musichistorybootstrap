@@ -1,4 +1,4 @@
-// EXAMPE only. Entire file must be redone.
+// EXAMPLE only. Entire file must be redone.
 define(["jquery", "firebase"], function($, Firebase) {
   var myFirebaseRef = new Firebase("https://fiery-inferno-6987.firebaseio.com/songs");
   myFirebaseRef.on("value", function(snapshot) {
@@ -29,7 +29,7 @@ define(["jquery", "firebase"], function($, Firebase) {
             });
 
             require(['hbs!../templates/delete-song'], function(songTemplate) {
-              $("some-output").html(songTemplate());
+              $("#some-output").html(songTemplate());
             });
 
 

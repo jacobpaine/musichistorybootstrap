@@ -8,7 +8,6 @@ requirejs.config({
     "q": '../bower_components/q/q'
   },
 
-
   shim: {
     'bootstrap': {
       deps: ['jquery'],
@@ -21,11 +20,9 @@ requirejs.config({
   }
 });
 
-
-
 require(
-	["bootstrap", "hbs/handlebars", "musichistory", "populate-songs", "firebase"],
-	function(b, Handlebars, mh, pop, firebase) {
+	["bootstrap", "hbs/handlebars", "handler", "firebase"],
+	function(b, Handlebars, handler, firebase) {
 
 	});
 

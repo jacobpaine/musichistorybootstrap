@@ -71,4 +71,8 @@ Sat. 11/14/2015 2:20
 	Redundant, useless files eliminated. Working copies and examples only remaining.
 
 Sat. 11/14/2015 3:25 Break to change location. Chik-Fil-A staff annoyed.
+Sat. 11/14/2015 4:00 Return home. Set up. Start on operable template.
+	Bootstrap rows and columns work. (Therefore require working)
+Sat. 11/14/2015 5:02 Handlebars template operating. Although uncertain precisely 	why. Still need to get Promises and LoDash working. Git up. Break. 
+
 
