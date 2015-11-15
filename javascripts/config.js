@@ -6,7 +6,7 @@ requirejs.config({
     "bootstrap": "../lib/bower_components/bootstrap/dist/js/bootstrap.min",
     "firebase": "../lib/bower_components/firebase/firebase",
     "lodash": '../lib/bower_components/lodash/lodash.min',
-    "q": '../bower_components/q/q'
+    "q": '../bower_components/lib/q/q'
   },
 
   shim: {

@@ -1,16 +1,15 @@
-/*This main css file is only an example.*/
-#getmore {
-  position: relative;
+#profile {
+  padding: 20px;
+  height: 70%;
+  width: 100px; }
+
+.classname {
+  width: 100px;
   padding: 10px;
-  width: 40px;
-  background-color: red; }
+  color: red; }
 
-
-div > .user-photo {
-  border: 2px solid black;
-  padding: 50px, 10px, 10px, 10px;
-  margin: 150px, 10px;
-  height: 150px;
-  width: 150px;
+body {
+  font: 100% Helvetica, sans-serif;
   color: black; }
 
+/*# sourceMappingURL=main.css.map */

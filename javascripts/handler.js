@@ -37,7 +37,7 @@ define(
 
 // *****************HANDLEBARS******************************
            
- var myFirebaseRef = new Firebase("https://fiery-inferno-6987.firebaseio.com/songs");
+ var myFirebaseRef = new Firebase("https://fiery-inferno-6987.firebaseio.com/books");
   myFirebaseRef.on("value", function(snapshot) {
 
     var firebaseData = snapshot.val();
@@ -48,7 +48,10 @@ define(
 
             require(['hbs!../templates/addform'], function(hbsTemplate) {
               $("#addbook--box").html(hbsTemplate());
+            });
 
+            require(['hbs!../templates/addbook'], function(hbsTemplate) {
+              $("#addbook--box").html(hbsTemplate());
             });
 }
 });

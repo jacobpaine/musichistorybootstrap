@@ -77,13 +77,16 @@ Sat. 11/14/2015 4:00 Return home. Set up. Start on operable template.
 Sat. 11/14/2015 5:02 Handlebars template operating. Although uncertain precisely 	why. Still need to get Promises and LoDash working. Git up. Break. 
 
 
-Sun. 11/15/2015 10:30 Back to work. Reviewing Promises from Promises-JAM in-class project to work with LoDash and Promises.
+Sun. 11/15/2015 10:30 - Back to work. Reviewing Promises from Promises-JAM in-class project to work with LoDash and Promises.
 	10:47 - Getting Lodash and Promises operable fairly straightforward. What I use it for is more confusing. Reviewing Curriculum, Google.
 		Curriculum useful, but still unclear. Created bookData.js to use promises.
 
-11:10 Revised JSON data. Altered Firebase. Git up.
-	
+11:10 - Revised JSON data. Altered Firebase. Git up.
 
+11:30 - Better understanding of lodash and promises. Manipulating objects mostly, or entirely. 
 
+11:45 - Break;
+12:30 - Inspecting code. Q throwing out GET and script error. Grunt not catching the errors.
+12:45 - Taking the rest of the day off to take care of other responsiblities. Will return to this Monday afternoon, assuming NSS work does not interfere.
 
 

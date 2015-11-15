@@ -2,7 +2,7 @@ define(["q", "jquery"], function(Q, $) {
   return function() {
     var deferred = Q.defer();
 
-    $.ajax({ url: "https://nss-book-store.firebaseio.com/books.json" })
+    $.ajax({ url: "https://fiery-inferno-6987.firebaseio.com/books.json" })
       // XHR was successful
       .done(function(json_data) {
         // Now we can resolve the promise and send the data
