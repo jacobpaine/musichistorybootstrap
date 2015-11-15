@@ -2,22 +2,28 @@
   "books": [
     {
       "title": "Don Quixote",
-      "author": "Cervantes",
+      "author": "Miguel de Cervantes",
       "language": "Spanish",
-      "reader": "Jacob Paine"
+      "reader": "Alfonso Peyon"
     },
     {
       "title": "A Midsummer's Night's Dream",
-      "author": "Shakespeare",
+      "author": "William Shakespeare",
+      "language": "English",
+      "reader": "Jacob Paine"
+    },
+    {
+      "title": "Do not go Gently into that good Night",
+      "author": "Dylan Thomas",
       "language": "English",
       "reader": "Jacob Paine"
     },
     {
       "title": "Wind-up Bird Chronicle",
-      "author": "Murakami",
+      "author": "Huraki Murakami",
       "language": "Japanese",
       "reader": "Takahashi Ono"
-    },
+    }
   ]
 }
 

@@ -5,6 +5,7 @@ requirejs.config({
     "hbs": "../lib/bower_components/require-handlebars-plugin/hbs",
     "bootstrap": "../lib/bower_components/bootstrap/dist/js/bootstrap.min",
     "firebase": "../lib/bower_components/firebase/firebase",
+    "lodash": '../lib/bower_components/lodash/lodash.min',
     "q": '../bower_components/q/q'
   },
 
@@ -20,9 +21,14 @@ requirejs.config({
   }
 });
 
+
+
 require(
-	["bootstrap", "hbs/handlebars", "handler", "firebase"],
-	function(b, Handlebars, handler, firebase) {
+	["jquery","bootstrap", "hbs/handlebars", "handler", "firebase", "lodash", "bookData"],
+	function($, b, Handlebars, handler, firebase, _, bookData) {
+
+
+
 
 	});
 

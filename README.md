@@ -71,13 +71,18 @@ Sat. 11/14/2015 2:20
 	Redundant, useless files eliminated. Working copies and examples only remaining.
 
 Sat. 11/14/2015 3:25 Break to change location. Chik-Fil-A staff annoyed.
+
 Sat. 11/14/2015 4:00 Return home. Set up. Start on operable template.
 	Bootstrap rows and columns work. (Therefore require working)
 Sat. 11/14/2015 5:02 Handlebars template operating. Although uncertain precisely 	why. Still need to get Promises and LoDash working. Git up. Break. 
 
 
 Sun. 11/15/2015 10:30 Back to work. Reviewing Promises from Promises-JAM in-class project to work with LoDash and Promises.
+	10:47 - Getting Lodash and Promises operable fairly straightforward. What I use it for is more confusing. Reviewing Curriculum, Google.
+		Curriculum useful, but still unclear. Created bookData.js to use promises.
 
+11:10 Revised JSON data. Altered Firebase. Git up.
+	
 
 
 
