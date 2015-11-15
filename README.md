@@ -76,3 +76,9 @@ Sat. 11/14/2015 4:00 Return home. Set up. Start on operable template.
 Sat. 11/14/2015 5:02 Handlebars template operating. Although uncertain precisely 	why. Still need to get Promises and LoDash working. Git up. Break. 
 
 
+Sun. 11/15/2015 10:30 Back to work. Reviewing Promises from Promises-JAM in-class project to work with LoDash and Promises.
+
+
+
+
+
